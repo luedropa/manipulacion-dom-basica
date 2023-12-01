@@ -1,6 +1,6 @@
 body {
+    background: #1e1f24;
     text-align: center;
-
     font-family: "Arial";
     color: #333;
 
@@ -15,12 +15,18 @@ body {
 }
 
 #cabecera {
-    background-color: #33a;
+    background-color: #37488b;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0 0.5);
     color: white;
     margin: 0;
     padding: 0.5em;
     font-weight: bold;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
 }
 #cabecera #tagline {
     padding: 0,0,0, 1em;
@@ -29,4 +35,9 @@ body {
 }
 .container h1 {
     font-size: 20px;
+}
+
+#post{
+    background: white;
+    padding: 1em;
 }
